@@ -51,14 +51,12 @@ Now that we're reading data from the provided API, it's time to build new react 
 
 ### TODO
 
-- Create a component to display a user.
-  - Display Username.
-  - Display First and Last Name.
-  - Display Email.
-  - Render the users's profile picture.
-- Connect the loading of users to a button press.
-- Implement pagination, continuously loading and appending users.
-  - eg: https://randomuser.me/api?page=1
+- Use the api result to create the following component:
+  
+![](UserCard.png)
+
+- Add a button which, loads and appends a new UserCard to the page.
+- Use icons from UserCard_Assets.zip.
 - Render user components into a Material UI grid.
 
 ---
